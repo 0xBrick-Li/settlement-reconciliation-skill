@@ -4,11 +4,12 @@
 
 它适合回答这类问题：平台说本期应该打款多少，银行实际收到了什么，哪些结算批次已匹配，哪些需要人工复核。
 
-仓库地址：
+## 运行截图
 
-```text
-https://github.com/0xBrick-Li/settlement-reconciliation-skill.git
-```
+![Codex Desktop 运行截图](images/截屏2026-04-25%2021.57.22.png)
+
+![Claude Code运行截图](images/截屏2026-04-25%2022.09.43.png)
+
 
 ## 功能范围
 
@@ -113,14 +114,6 @@ git clone https://github.com/0xBrick-Li/settlement-reconciliation-skill.git
 cd settlement-reconciliation-skill
 python3 -m pip install -e ".[xlsx,yaml]"
 ```
-
-
-开发和测试安装：
-
-```bash
-python3 -m pip install -e ".[test,xlsx,yaml]"
-```
-
 
 ## 启用 Skill
 
