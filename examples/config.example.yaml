@@ -1,0 +1,21 @@
+amount_tolerance: 0.01
+date_window_days: 5
+currency_required: true
+allow_many_to_one: false
+settlement_fields:
+  settlement_id: [Settlement ID, Payout ID]
+  platform: [Platform]
+  store: [Store]
+  currency: [Currency]
+  expected_payout_date: [Expected Payout Date, Payout Date]
+  net_amount: [Net Amount, Payout Amount]
+  reference: [Reference, Payout Reference]
+bank_fields:
+  transaction_id: [Transaction ID]
+  transaction_date: [Transaction Date]
+  currency: [Currency]
+  amount: [Amount]
+  direction: [Direction]
+  reference: [Reference]
+  description: [Description]
+

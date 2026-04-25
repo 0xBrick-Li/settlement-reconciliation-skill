@@ -1,0 +1,12 @@
+Transaction ID,Transaction Date,Currency,Amount,Direction,Reference,Description
+BANK-9001,2026-04-11,USD,1250.00,Credit,PAYOUT-1001,Amazon payout
+BANK-9002,2026-04-20,EUR,800.00,Credit,PAYOUT-1002,Late Shopify payout
+BANK-9003,2026-04-16,GBP,499.00,Credit,PAYOUT-1003,Stripe payout short paid
+BANK-9004,2026-04-17,USD,620.00,Credit,PAYOUT-1004,Amazon Canada payout received in wrong currency
+BANK-9005,2026-04-18,USD,300.00,Credit,PAYOUT-1005,PayPal payout candidate A
+BANK-9006,2026-04-18,USD,300.00,Credit,PAYOUT-1005,PayPal payout candidate B
+BANK-9007,2026-04-20,USD,450.00,Credit,PAYOUT-1006,Etsy payout
+BANK-9008,2026-04-21,USD,75.00,Credit,UNKNOWN-INTEREST,Unexplained bank deposit
+BANK-9009,2026-04-24,GBP,700.00,Credit,PAYOUT-1008,TikTok Shop payout
+BANK-9010,2026-04-25,USD,42.00,Debit,BANK-FEE,Monthly bank fee
+BANK-9011,2026-04-24,NZD,1100.00,Credit,PAYOUT-1009,eBay payout in unexpected currency
